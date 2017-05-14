@@ -1,0 +1,229 @@
+﻿  Spotlight.cpp
+  UniqueID.cpp
+  TransformableOld.cpp
+  Transformable.cpp
+  tinyxml2.cpp
+  Texture.cpp
+  TextOld.cpp
+  Text.cpp
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\text.cpp(64): warning C4838: conversion from 'FT_Pos' to 'GLuint' requires a narrowing conversion
+  TestScene.cpp
+  stdafx.cpp
+  SpriteRender.cpp
+  SplashScene.cpp
+  Sphere.cpp
+  Sound.cpp
+  ShadowMap.cpp
+  SceneManager.cpp
+  SceneLoader.cpp
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(101): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(197): warning C4101: 'radius': unreferenced local variable
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(204): warning C4101: 'Value': unreferenced local variable
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(414): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(508): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(564): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(569): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(574): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(481): warning C4101: 'Value': unreferenced local variable
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(857): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(863): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(869): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(875): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(881): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(887): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(893): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(962): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1002): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1009): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1016): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1023): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1030): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1113): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1119): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1189): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1195): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1251): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1271): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1275): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1279): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1283): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1287): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1369): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1375): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1381): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1387): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1393): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1487): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1493): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1656): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1661): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\sceneloader.cpp(1666): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  SceneComponent.cpp
+  Scene.cpp
+  ResourceManager.cpp
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\resourcemanager.cpp(103): warning C4715: 'ResourceManager::getShader': not all control paths return a value
+  Render.cpp
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\render.cpp(99): warning C4305: '=': truncation from 'double' to 'float'
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\render.cpp(103): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\render.cpp(109): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\render.cpp(132): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\render.cpp(209): warning C4305: 'argument': truncation from 'int' to 'const char'
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\render.cpp(209): warning C4309: 'argument': truncation of constant value
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\render.cpp(213): warning C4244: 'initializing': conversion from 'int' to 'GLfloat', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\render.cpp(214): warning C4244: 'initializing': conversion from 'int' to 'GLfloat', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\render.cpp(237): warning C4305: 'argument': truncation from 'int' to 'const char'
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\render.cpp(237): warning C4309: 'argument': truncation of constant value
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\render.cpp(257): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\render.cpp(258): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\render.cpp(290): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\render.cpp(303): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\render.cpp(321): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\render.cpp(343): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\render.cpp(360): warning C4018: '<': signed/unsigned mismatch
+  QuatCamera.cpp
+  PointLight.cpp
+  PlayerInput.cpp
+  PlayerController.cpp
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\playercontroller.cpp(74): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\playercontroller.cpp(84): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\playercontroller.cpp(87): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\playercontroller.cpp(90): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\playercontroller.cpp(93): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\playercontroller.cpp(96): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\playercontroller.cpp(99): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+  Player.cpp
+  Pickup.cpp
+  Physics.cpp
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(59): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(73): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(80): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(84): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(88): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(954): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(959): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(961): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(1062): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(1064): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(1090): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(1092): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(1119): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(1121): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(1147): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(1149): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(1174): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(1176): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(1201): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(1203): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\physics.cpp(495): warning C4715: 'System::Physics::CheckOBBOBBCollision': not all control paths return a value
+  Physical.cpp
+  ObjectComponent.cpp
+  MyTimer.cpp
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\mytimer.cpp(11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\mytimer.cpp(16): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  MyRobot.cpp
+  Movable.cpp
+  ModelOLD.cpp
+  Mesh.cpp
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\mesh.cpp(9): warning C4094: untagged 'struct' declared no symbols
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\mesh.cpp(50): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\mesh.cpp(54): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\mesh.cpp(108): warning C4018: '<': signed/unsigned mismatch
+  Material.cpp
+  main.cpp
+  InputHandler.cpp
+  ID.cpp
+  Graphics.cpp
+  gl_core_4_3.cpp
+  GLSLProgram.cpp
+  GameScene.cpp
+  GameObject.cpp
+  Engine.cpp
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\engine.cpp(200): warning C4018: '<': signed/unsigned mismatch
+  OBB.cpp
+  Name.cpp
+  MessageHandler.cpp
+  Math3D.cpp
+  LuaScripting.cpp
+  LuaHelper.cpp
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\luahelper.cpp(35): warning C4101: 'fValue': unreferenced local variable
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\luahelper.cpp(53): warning C4101: 'fValue': unreferenced local variable
+  LuaEntity.cpp
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\luaentity.cpp(291): warning C4715: 'LuaEntity::getID': not all control paths return a value
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\luaentity.cpp(298): warning C4715: 'LuaEntity::getName': not all control paths return a value
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\luaentity.cpp(284): warning C4715: 'LuaEntity::hasComponent': not all control paths return a value
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\luaentity.cpp(349): warning C4715: 'LuaEntity::tGetPosX': not all control paths return a value
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\luaentity.cpp(371): warning C4715: 'LuaEntity::tGetPosZ': not all control paths return a value
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\luaentity.cpp(360): warning C4715: 'LuaEntity::tGetPosY': not all control paths return a value
+  Light.cpp
+  GUI.cpp
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\gui.cpp(215): warning C4018: '<': signed/unsigned mismatch
+  Gameplay.cpp
+  Gameover.cpp
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\gameover.cpp(107): warning C4018: '<': signed/unsigned mismatch
+  EntityManager.cpp
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\entitymanager.cpp(48): warning C4018: '<': signed/unsigned mismatch
+  EntityLoader.cpp
+  EntityFactory.cpp
+  Entity.cpp
+  DirectionalLight.cpp
+  Destroyable.cpp
+  CollisionReporter.cpp
+  Capsule.cpp
+  CameraSystem.cpp
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\camerasystem.cpp(123): warning C4018: '<': signed/unsigned mismatch
+  CameraController.cpp
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\cameracontroller.cpp(60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\cameracontroller.cpp(77): warning C4018: '<': signed/unsigned mismatch
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\cameracontroller.cpp(87): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\cameracontroller.cpp(90): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\cameracontroller.cpp(93): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\cameracontroller.cpp(96): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\cameracontroller.cpp(99): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\cameracontroller.cpp(102): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\cameracontroller.cpp(105): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\cameracontroller.cpp(108): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+  Camera.cpp
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\camera.cpp(21): warning C4715: 'Component::Camera::thirdPerson': not all control paths return a value
+  Button.cpp
+  Bitmap.cpp
+  Audio.cpp
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\audio.cpp(41): warning C4018: '<': signed/unsigned mismatch
+  AssimpMesh.cpp
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\assimpmesh.cpp(19): warning C4094: untagged 'struct' declared no symbols
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\assimpmesh.cpp(337): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\assimpmesh.cpp(339): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\assimpmesh.cpp(414): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\assimpmesh.cpp(442): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\assimpmesh.cpp(464): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\assimpmesh.cpp(594): warning C4101: 'height': unreferenced local variable
+d:\uni\programming\projects\first person shooter\blobsonic\source\common\assimpmesh.cpp(594): warning C4101: 'width': unreferenced local variable
+  aModel.cpp
+  AIController.cpp
+  AIMovement.cpp
+  AABB.cpp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+freetype.lib(autofit.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(autofit.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(bdf.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(bdf.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(cff.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(cff.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(ftbase.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(ftbase.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(ftbitmap.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(ftbitmap.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(ftdebug.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(ftdebug.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(ftgzip.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(ftgzip.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(ftinit.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(ftinit.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(ftlzw.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(ftlzw.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(ftsystem.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(ftsystem.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(smooth.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(smooth.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(pcf.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(pcf.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(pfr.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(pfr.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(psaux.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(psaux.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(pshinter.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(pshinter.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(psmodule.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(psmodule.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(raster.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(raster.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(sfnt.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(sfnt.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(truetype.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(truetype.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(type1.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(type1.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(type1cid.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(type1cid.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(type42.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(type42.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+freetype.lib(winfnt.obj) : warning LNK4099: PDB 'freetype271d.pdb' was not found with 'freetype.lib(winfnt.obj)' or at 'D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\freetype271d.pdb'; linking object as if no debug info
+  Blobsonic.vcxproj -> D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\Blobsonic.exe
+  Blobsonic.vcxproj -> D:\Uni\Programming\Projects\First Person Shooter\Blobsonic\Builds\Win32\Blobsonic\Debug\Blobsonic.pdb (Partial PDB)

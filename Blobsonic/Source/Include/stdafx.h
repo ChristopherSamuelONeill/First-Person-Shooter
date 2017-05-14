@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 #include <tchar.h>
-#include <gl_core_4_3.hpp>
+#include "gl_core_4_3.hpp"
 #include <GLFW\glfw3.h>
 #include <glm\glm.hpp>
 
