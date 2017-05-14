@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ResourceFile> 
+	<Location>Source\Resources\Scenes\BasicResources.xml</Location> 
+</ResourceFile>
+
+<Scene> <Type>Game</Type> <ID>game_scene</ID>
+	<Sprite> <ID>sprite1</ID>
+		<Shader>button_shader</Shader>
+		<Texture>loading_texture</Texture>
+		<Position>
+			<X>0.0f</X>
+			<Y>0.0f</Y>
+			<Z>0.0f</Z>
+		</Position>
+		<Rotation>
+			<X>0.0f</X>
+			<Y>0.0f</Y>
+			<Z>0.0f</Z>
+		</Rotation>
+		<Scale>
+			<X>1920.0f</X> 	
+			<Y>1080.0f</Y>
+			<Z>0.0f</Z>
+		</Scale>
+		<Colour>
+			<X>1.0f</X> 	
+			<Y>1.0f</Y>
+			<Z>1.0f</Z>
+		</Colour>
+	</Sprite>
+</Scene>
+
