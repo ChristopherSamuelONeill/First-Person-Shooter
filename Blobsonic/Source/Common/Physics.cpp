@@ -17,11 +17,11 @@ System::Physics::Physics()
 
 void System::Physics::process(std::vector<std::shared_ptr<Entity>>* entities)
 {
-	//m_vAABBS.clear();
-	//m_vOBBS.clear();
-	//m_vSpheres.clear();
-	//m_vCapsules.clear();
-	//m_vPhysicals.clear();
+	m_vAABBS.clear();
+	m_vOBBS.clear();
+	m_vSpheres.clear();
+	m_vCapsules.clear();
+	m_vPhysicals.clear();
 
 	for (auto it = entities->begin(); it != entities->end(); ++it)
 	{
@@ -66,7 +66,7 @@ void System::Physics::removeDestroyed(std::vector<std::shared_ptr<Entity>>* enti
 void System::Physics::update(float dt)
 {
 
-	dt = 1 / 60.0f;
+	dt = 1 / 600.0f;
 
 
 	//update physicals positions
@@ -851,18 +851,12 @@ void System::Physics::updatePhysicals(std::shared_ptr<Entity> e, float dt)
 	if (phys->m_fINVMass != 0) // infinit mass , do not apply forces to it
 	{
 		//update velocity//apply drag //apply gravity
-		phys->m_vVelocity.y += -0.5;
+	
 		//calculate drag
 		glm::vec3 drag(phys->m_vVelocity.x * DRAG * -GRAVITYCOEFFICENT, phys->m_vVelocity.y * DRAG * -GRAVITYCOEFFICENT, phys->m_vVelocity.z * DRAG * -GRAVITYCOEFFICENT);
 
 		phys->m_vVelocity += (phys->getAcceleration() - drag) * dt;
-		trans->m_vPosition += phys->m_vVelocity;
-	
-
-		if (abs(phys->m_vAcceleration.x) < EPSILON) phys->m_vAcceleration.x = 0;
-		if (abs(phys->m_vAcceleration.y) < EPSILON) phys->m_vAcceleration.y = 0;
-		if (abs(phys->m_vAcceleration.z) < EPSILON) phys->m_vAcceleration.z = 0;
-
+		trans->m_vPosition +=  (phys->m_vVelocity + 1/60.0f * ( phys->getAcceleration() / 2.0f));
 
 	}
 	else
@@ -900,7 +894,6 @@ void System::Physics::resolveCollision(std::shared_ptr<Entity> object1, std::sha
 	if (fRelVelocity > 0)return;
 	
 	//calculate restitution
-	//float e = std::min(phys1->m_fRestitution, phys2->m_fRestitution);
 	float e = (phys1->m_fRestitution + phys2->m_fRestitution) / 2.0f;
 
 	//calculate impulse scalar
@@ -909,7 +902,7 @@ void System::Physics::resolveCollision(std::shared_ptr<Entity> object1, std::sha
 
 	//Apply the impluse
 	glm::vec3 impulse = j * CollisionNormal;
-	phys1->m_vVelocity -= phys1->m_fINVMass * impulse ;
+	phys1->m_vVelocity -= phys1->m_fINVMass *  impulse ;
 	phys2->m_vVelocity += phys2->m_fINVMass * impulse ;
 
 
@@ -938,9 +931,11 @@ void System::Physics::PositionalCorrection(std::shared_ptr<Entity> object1, std:
 
 	//reduces rounding errors in the hardware
 	
-	glm::vec3 correction = Depth / (phys1->m_fINVMass + phys2->m_fINVMass) * 0.025f * CollisionNormal;
-	trans1->m_vPosition -= phys1->m_fINVMass * correction;
-	trans2->m_vPosition += phys2->m_fINVMass * correction;
+	glm::vec3 correction = Depth * 0.2f * CollisionNormal;
+
+	if(!phys1->m_fINVMass == 0)trans1->m_vPosition -= correction;
+	if (!phys2->m_fINVMass == 0)trans2->m_vPosition += correction;
+	
 
 }
 

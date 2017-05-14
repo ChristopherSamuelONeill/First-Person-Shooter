@@ -3,11 +3,9 @@
 -- For Debugging/Scene testing
 if isKeyDown("p") == true then
 	reloadScene()
-elseif isKeyDown("esc") == true then
-	changeScene("Main_Menu_Scene.xml")
 end
 
-if getActiveScene() == "Chris.xml" then
+if getActiveScene() == "ShooterTest.xml" then
 	hideCursor(true)
 	-- Player Controls
 	if isKeyDown("w") == true then
@@ -35,14 +33,13 @@ if getActiveScene() == "Chris.xml" then
 	--Collect Pickup
 	iCollision = player:pHasCollidedByName("Goal")
 	if iCollision > -1 then
-		changeScene("Main_Menu_Scene.xml")
+		
 		player:log()
 	end
 
 
 	--Player Death plane
-	if player:tGetPosY() < 0 then
-		--changeScene("Gameover.xml")
+	if player:tGetPosY() < -1000 then
 		player:tSetPosition(player:tGetPosX(),0,player:tGetPosZ())
 	end
 

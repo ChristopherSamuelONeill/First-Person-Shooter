@@ -41,7 +41,7 @@ Component::Camera::Camera()
 
 	m_bLocalPosSet = false;
 
-	m_fReach = 1000.0f;
+	m_fReach = 5.0f;
 
 	m_bEnableRotate = true;
 };

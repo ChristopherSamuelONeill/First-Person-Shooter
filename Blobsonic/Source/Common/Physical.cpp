@@ -5,7 +5,7 @@ Physical::Physical()
 {
 	m_fMass = 1;
 	m_fINVMass = 1 / m_fMass;
-	m_vAcceleration = glm::vec3(0, 0, 0);
+	m_vAcceleration = glm::vec3(0, -9.8f, 0);
 	m_vVelocity = glm::vec3(0, 0, 0);
 	m_fRestitution = 0.1f;
 
@@ -69,7 +69,7 @@ glm::vec3 Physical::getVelocity()
 
 glm::vec3 Physical::getAcceleration()
 {
-	return m_vAcceleration;
+	return glm::vec3(m_vAcceleration.x, m_vAcceleration.y - 9.8f, m_vAcceleration.z);
 }
 
 void Physical::applyImpulse(glm::vec3 Normal, float force)
