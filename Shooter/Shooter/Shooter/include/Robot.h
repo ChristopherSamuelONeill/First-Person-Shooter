@@ -46,6 +46,7 @@ public:
 	float m_fRadius;
 
 	void movefoward(int dir);
+	void movesideways(int dir);
 
 	glm::vec3 getPos();
 

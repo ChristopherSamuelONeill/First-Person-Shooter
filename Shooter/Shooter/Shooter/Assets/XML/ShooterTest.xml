@@ -2,48 +2,16 @@
 
 <Level>
 	<Scene>
-		<object>
+		<skybox>
 			<modelPath>Assets/models/skybox.obj</modelPath>
 			<texturePath>Assets/images/skybox.bmp </texturePath>
-		</object>
-		<object>
+		</skybox>
+		<ground>
 			<modelPath>Assets/models/ground.obj</modelPath>
 			<texturePath>Assets/images/Grass.bmp</texturePath>
-		</object>
-		<object>
-			<modelPath>Assets/models/Level01/ceiling.obj</modelPath>
-			<texturePath>Assets/images/ceiling.bmp </texturePath>
-		</object>
-		<object>
-			<modelPath>Assets/models/Level01/floor.obj</modelPath>
-			<texturePath>Assets/images/floor.bmp </texturePath>
-		</object>
-		<object>
-			<modelPath>Assets/models/Level01/wall01.obj</modelPath>
-			<texturePath>Assets/images/wall01.bmp </texturePath>
-		</object>
-		<object>
-			<modelPath>Assets/models/Level01/wall02.obj</modelPath>
-			<texturePath>Assets/images/wall01.bmp </texturePath>
-		</object>
-		<object>
-			<modelPath>Assets/models/Level01/wall03.obj</modelPath>
-			<texturePath>Assets/images/wall01.bmp </texturePath>
-		</object>
-		<object>
-			<modelPath>Assets/models/Level01/wall04.obj</modelPath>
-			<texturePath>Assets/images/wall01.bmp </texturePath>
-		</object>
-		<object>
-			<modelPath>Assets/models/Level01/wall05.obj</modelPath>
-			<texturePath>Assets/images/wall01.bmp </texturePath>
-		</object>
-			<object>
-			<modelPath>Assets/models/Level01/wall06.obj</modelPath>
-			<texturePath>Assets/images/wall01.bmp </texturePath>
-		</object>
+		</ground>
 	</Scene>
-	<Pickups>
+	
 		<numb>2</numb>
 		<object>
 			<type>battery</type>
@@ -59,30 +27,30 @@
 			<y> 8 </y>
 			<z> 19 </z>
 		</object>
-	</Pickups>
-	<Robot>
-			<x> -17 </x>
-			<y> 13 </y>
-			<z> -30 </z>
-			<r> 180 </r>
-			<f> 100 </f>
-	</Robot>
 
-	<Camera>
-		<cam>
-			<x> -18 </x>
-			<y> 20 </y>
-			<z> -40 </z>
-		</cam>
-		
-
-
-	</Camera>
-	<Light>
-		
-			<x> -9 </x>
-			<y> 18 </y>
-			<z> -21 </z>
+	<Player>
 	
-		</Light>
+		<Model>player</Model>
+		
+		<Position>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+		</Position>
+		
+		<Rotation>
+			<x>0</x>
+			<y>180</y>
+			<z>0</z>
+		</Rotation>
+
+	</Player>
+
+	<Light>
+		<x> -9 </x>
+		<y> 18 </y>
+		<z> -21 </z>
+	</Light>
+	
+	
 </Level>

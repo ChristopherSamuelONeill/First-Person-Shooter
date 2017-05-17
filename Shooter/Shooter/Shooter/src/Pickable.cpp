@@ -59,6 +59,6 @@ void Pickable::animate()
 	}
 	
 
-	m_model->rotate(1, false);
+	m_model->rotate(glm::vec3(0,1,0), false);
 	m_model->tanslate(glm::vec3(0, m_fMove,0),false);
 }

@@ -20,10 +20,10 @@ public:
 	glm::vec3 m_View;
 	glm::vec3 m_Up;
 
-	glm::vec3 m_offset;
+	void handleInput(Window& window);
 
 	void point();
-
+	
 
 };
 

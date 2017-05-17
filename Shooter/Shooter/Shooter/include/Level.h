@@ -1,11 +1,12 @@
 #ifndef LEVEL_H
 #define LEVEL_H
 
-#include<stdafx.h>
-#include"Camera.h"
-#include"Pickable.h"
-#include"tinyxml2.h"
-#include"Robot.h"
+#include <stdafx.h>
+#include "Camera.h"
+#include "Pickable.h"
+#include "tinyxml2.h"
+#include "Player.h"
+
 
 class Level
 {
@@ -18,16 +19,20 @@ public:
 	Level(const char dir[]);
 	~Level();
 
-	//to keep track of how many pick ups
-	int m_iNumPicks;
-	int m_iPlayerPicks=0;
+	void update(float dt);
+	void draw();
 
 	//game objects
-	vector<Camera*> m_LevelCameras;
-	vector<Pickable*> m_LevelPickables;
-	Robot *theRobot;
-	vector<Model*> models;
+
+	Player m_Player;
+
+	Model* m_skyBox;
+	vector<Model*> m_Ground;
+
+	vector<Model*> m_Models;
+
 	glm::vec3 m_lightPos;
+
 };
 
 #endif // !LEVEL_H

@@ -5,8 +5,7 @@
 
 Model::Model()
 {
-	m_Rotation = 0;
-	spin = 0;
+
 }
 
 Model::~Model()
@@ -25,17 +24,15 @@ Model::Model(string objectPath, string texturePath)
 	m_tl = new TextureLoader();
 	m_tl->LoadBMP(texturePath, m_textureID);
 
-	m_Rotation = 0;
-	spin = 0;
 }
 
 void Model::DrawUsingVBO(bool drawWithNormals, bool drawWithTexture)
 {
 	glPushMatrix();
 
-	glTranslatef(m_position.x, m_position.y, m_position.z);	// draw robot at desired coordinates
+	glTranslatef(m_vPosition.x, m_vPosition.y, m_vPosition.z);	// draw robot at desired coordinates
 	// activate and specify pointer to vertex array
-	glRotatef(m_Rotation, 0.0f, m_Rotation,  0.0f);
+	glRotatef(m_vRotation.x, m_vRotation.y , m_vRotation.z,  0.0f);
 
 	glEnableClientState(GL_VERTEX_ARRAY);
 	vector<float>& vertices = m_mr->GetVertices();
@@ -79,36 +76,30 @@ void Model::DrawUsingVBO(bool drawWithNormals, bool drawWithTexture)
 
 	}
 	glPopMatrix();	// pop back to original coordinate system
-
-	m_Rotation += spin;
-	if (m_Rotation < 0)
-	{
-		m_Rotation = 360 + m_Rotation;
-	}
 }
 
 void Model::tanslate(glm::vec3 translation,bool set)
 {
 	if (set)
 	{
-		m_position = translation;
+		m_vPosition = translation;
 	}
 	else
 	{
-		m_position += translation;
+		m_vPosition += translation;
 	}
 
 }
 
-void Model::rotate(float amount, bool set)
+void Model::rotate(glm::vec3 rotation, bool set)
 {
 	if (set)
 	{
-		m_Rotation = amount;
+		m_vRotation = rotation;
 	}
 	else
 	{
-		spin = amount;
-		
+		m_vRotation += rotation;
 	}
+
 }

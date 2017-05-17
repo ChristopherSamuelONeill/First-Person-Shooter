@@ -11,12 +11,22 @@
 
 void Robot::movefoward(int dir)
 {
-	m_fFuel -= 0.1;
+
 	glm::vec3 movement = glm::vec3(cosf(glm::radians(rotationAngle - 90)), 0, -sinf(glm::radians(rotationAngle - 90)));
 	m_xPos += dir * movement.x * speed;
 	m_zPos += dir * movement.z * speed;
 
 }
+void Robot::movesideways(int dir)
+{
+	
+	glm::vec3 movement = glm::vec3(cosf(glm::radians(rotationAngle - 90)), 0, -sinf(glm::radians(rotationAngle - 90)));
+	m_xPos += dir * movement.z * speed;
+	m_zPos += dir * movement.x * speed;
+
+}
+
+
 
 glm::vec3 Robot::getPos()
 {

@@ -21,7 +21,7 @@ public:
 	GLuint m_textureID;
 
 	void tanslate(glm::vec3 translation, bool set);
-	void rotate(float amount, bool set);
+	void rotate(glm::vec3 rotation, bool set);
 	
 
 private:
@@ -29,9 +29,8 @@ private:
 	ModelReader* m_mr;
 	TextureLoader* m_tl;
 
-	glm::vec3 m_position;
-	float m_Rotation;
-	float spin;
+	glm::vec3 m_vPosition;
+	glm::vec3 m_vRotation;
 
 };
 #endif
