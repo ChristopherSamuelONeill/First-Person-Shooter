@@ -1,0 +1,22 @@
+﻿  tinyxml2.cpp
+  Scene.cpp
+d:\uni\year three\imat 3606 - games programming\assignment 2\blobsonicengine\editor\editor\editor\src\scene.cpp(212): warning C4018: '<': signed/unsigned mismatch
+d:\uni\year three\imat 3606 - games programming\assignment 2\blobsonicengine\editor\editor\editor\src\scene.cpp(217): warning C4018: '<': signed/unsigned mismatch
+d:\uni\year three\imat 3606 - games programming\assignment 2\blobsonicengine\editor\editor\editor\src\scene.cpp(222): warning C4018: '<': signed/unsigned mismatch
+d:\uni\year three\imat 3606 - games programming\assignment 2\blobsonicengine\editor\editor\editor\src\scene.cpp(233): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+d:\uni\year three\imat 3606 - games programming\assignment 2\blobsonicengine\editor\editor\editor\src\main.cpp(190): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\uni\year three\imat 3606 - games programming\assignment 2\blobsonicengine\editor\editor\editor\src\main.cpp(195): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\uni\year three\imat 3606 - games programming\assignment 2\blobsonicengine\editor\editor\editor\src\main.cpp(1263): warning C4018: '<': signed/unsigned mismatch
+d:\uni\year three\imat 3606 - games programming\assignment 2\blobsonicengine\editor\editor\editor\src\main.cpp(1575): warning C4018: '<': signed/unsigned mismatch
+d:\uni\year three\imat 3606 - games programming\assignment 2\blobsonicengine\editor\editor\editor\src\main.cpp(1905): warning C4018: '<': signed/unsigned mismatch
+d:\uni\year three\imat 3606 - games programming\assignment 2\blobsonicengine\editor\editor\editor\src\main.cpp(2273): warning C4018: '<': signed/unsigned mismatch
+  Clickable.cpp
+  Button.cpp
+d:\uni\year three\imat 3606 - games programming\assignment 2\blobsonicengine\editor\editor\editor\src\button.cpp(39): warning C4244: 'initializing': conversion from 'std::size_t' to 'float', possible loss of data
+d:\uni\year three\imat 3606 - games programming\assignment 2\blobsonicengine\editor\editor\editor\src\button.cpp(49): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\uni\year three\imat 3606 - games programming\assignment 2\blobsonicengine\editor\editor\editor\src\button.cpp(63): warning C4244: 'initializing': conversion from 'std::size_t' to 'float', possible loss of data
+d:\uni\year three\imat 3606 - games programming\assignment 2\blobsonicengine\editor\editor\editor\src\button.cpp(69): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  Generating Code...
+  Editor.vcxproj -> D:\Uni\Year Three\IMAT 3606 - Games programming\Assignment 2\BlobsonicEngine\Editor\Editor\Editor\Debug\Editor.exe
+  Editor.vcxproj -> D:\Uni\Year Three\IMAT 3606 - Games programming\Assignment 2\BlobsonicEngine\Editor\Editor\Editor\Debug\Editor.pdb (Partial PDB)

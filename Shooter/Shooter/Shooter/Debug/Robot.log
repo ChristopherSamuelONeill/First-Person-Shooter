@@ -1,0 +1,18 @@
+﻿  main.cpp
+d:\uni\year three\imat 3606 - games programming\assignment\v1.1\robot\robot\main.cpp(137): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\uni\year three\imat 3606 - games programming\assignment\v1.1\robot\robot\main.cpp(202): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\uni\year three\imat 3606 - games programming\assignment\v1.1\robot\robot\main.cpp(223): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\uni\year three\imat 3606 - games programming\assignment\v1.1\robot\robot\main.cpp(228): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\uni\year three\imat 3606 - games programming\assignment\v1.1\robot\robot\main.cpp(238): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\uni\year three\imat 3606 - games programming\assignment\v1.1\robot\robot\main.cpp(243): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\uni\year three\imat 3606 - games programming\assignment\v1.1\robot\robot\main.cpp(253): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\uni\year three\imat 3606 - games programming\assignment\v1.1\robot\robot\main.cpp(274): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+d:\uni\year three\imat 3606 - games programming\assignment\v1.1\robot\robot\main.cpp(361): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+d:\uni\year three\imat 3606 - games programming\assignment\v1.1\robot\robot\main.cpp(512): warning C4018: '>': signed/unsigned mismatch
+d:\uni\year three\imat 3606 - games programming\assignment\v1.1\robot\robot\main.cpp(594): warning C4018: '<': signed/unsigned mismatch
+d:\uni\year three\imat 3606 - games programming\assignment\v1.1\robot\robot\main.cpp(634): warning C4018: '<': signed/unsigned mismatch
+d:\uni\year three\imat 3606 - games programming\assignment\v1.1\robot\robot\main.cpp(685): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\uni\year three\imat 3606 - games programming\assignment\v1.1\robot\robot\main.cpp(687): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\uni\year three\imat 3606 - games programming\assignment\v1.1\robot\robot\main.cpp(695): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Robot.vcxproj -> D:\Uni\Year Three\IMAT 3606 - Games programming\Assignment\v1.1\Robot\Debug\Robot.exe
+  Robot.vcxproj -> D:\Uni\Year Three\IMAT 3606 - Games programming\Assignment\v1.1\Robot\Debug\Robot.pdb (Full PDB)

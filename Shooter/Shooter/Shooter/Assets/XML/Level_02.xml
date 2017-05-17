@@ -1,0 +1,151 @@
+<?xml version = "1.0"?>
+
+<Level>
+	<Scene>
+		<object>
+			<modelPath>Assets/models/skybox.obj</modelPath>
+			<texturePath>Assets/images/skybox.bmp</texturePath>
+		</object>
+		<object>
+			<modelPath>Assets/models/ground.obj</modelPath>
+			<texturePath>Assets/images/UVGround.bmp</texturePath>
+		</object>
+		<object>
+			<modelPath>Assets/models/Level02/ceiling01.obj</modelPath>
+			<texturePath>Assets/images/ceiling.bmp </texturePath>
+		</object>
+			<object>
+			<modelPath>Assets/models/Level02/ceiling02.obj</modelPath>
+			<texturePath>Assets/images/ceiling.bmp </texturePath>
+		</object>
+			<object>
+			<modelPath>Assets/models/Level02/ceiling03.obj</modelPath>
+			<texturePath>Assets/images/ceiling.bmp </texturePath>
+		</object>
+		
+		<object>
+			<modelPath>Assets/models/Level02/ceiling04.obj</modelPath>
+			<texturePath>Assets/images/ceiling.bmp </texturePath>
+		</object>
+		<object>
+			<modelPath>Assets/models/Level02/floor1.obj</modelPath>
+			<texturePath>Assets/images/floor.bmp</texturePath>
+		</object>
+			<object>
+			<modelPath>Assets/models/Level02/floor2.obj</modelPath>
+			<texturePath>Assets/images/floor.bmp</texturePath>
+		</object>
+			<object>
+			<modelPath>Assets/models/Level02/floor3.obj</modelPath>
+			<texturePath>Assets/images/floor.bmp</texturePath>
+		</object>
+		<object>
+			<modelPath>Assets/models/Level02/wall01.obj</modelPath>
+			<texturePath>Assets/images/wall01.bmp</texturePath>
+		</object>
+			<object>
+			<modelPath>Assets/models/Level02/wall02.obj</modelPath>
+			<texturePath>Assets/images/wall01.bmp</texturePath>
+		</object>
+			<object>
+			<modelPath>Assets/models/Level02/wall03.obj</modelPath>
+			<texturePath>Assets/images/wall01.bmp</texturePath>
+		</object>
+			<object>
+			<modelPath>Assets/models/Level02/wall04.obj</modelPath>
+			<texturePath>Assets/images/wall01.bmp</texturePath>
+		</object>
+			<object>
+			<modelPath>Assets/models/Level02/wall05.obj</modelPath>
+			<texturePath>Assets/images/wall01.bmp</texturePath>
+		</object>
+			<object>
+			<modelPath>Assets/models/Level02/wall06.obj</modelPath>
+			<texturePath>Assets/images/wall01.bmp</texturePath>
+		</object>
+			<object>
+			<modelPath>Assets/models/Level02/wall07.obj</modelPath>
+			<texturePath>Assets/images/wall01.bmp</texturePath>
+		</object>
+			<object>
+			<modelPath>Assets/models/Level02/wall08.obj</modelPath>
+			<texturePath>Assets/images/wall01.bmp</texturePath>
+		</object>
+			<object>
+			<modelPath>Assets/models/Level02/wall09.obj</modelPath>
+			<texturePath>Assets/images/wall01.bmp</texturePath>
+		</object>
+			<object>
+			<modelPath>Assets/models/Level02/wall10.obj</modelPath>
+			<texturePath>Assets/images/wall01.bmp</texturePath>
+		</object>
+			<object>
+			<modelPath>Assets/models/Level02/wall11.obj</modelPath>
+			<texturePath>Assets/images/wall01.bmp</texturePath>
+		</object>
+			<object>
+			<modelPath>Assets/models/Level02/wall12.obj</modelPath>
+			<texturePath>Assets/images/wall01.bmp</texturePath>
+		</object>
+	</Scene>
+	<Pickups>
+		<numb>4</numb>
+		<object>
+			<type>battery</type>
+			<score> 50 </score>
+			<x> -3 </x>
+			<y> 8 </y>
+			<z> 16 </z>
+		</object>
+		<object>
+			<type>battery</type>
+			<score> 50 </score>
+			<x> -3 </x>
+			<y> 8 </y>
+			<z> 66 </z>
+		</object>
+		<object>
+			<type>battery</type>
+			<score> 50 </score>
+			<x> -47 </x>
+			<y> 8 </y>
+			<z> 17 </z>
+		</object>
+		<object>
+			<type>battery</type>
+			<score> 50 </score>
+			<x> 48 </x>
+			<y> 8 </y>
+			<z> 21 </z>
+		</object>
+	</Pickups>
+	<Robot>
+			<x> -3 </x>
+			<y> 13 </y>
+			<z> -26 </z>
+			<r> 180 </r>
+			<f> 100 </f>
+	</Robot>
+
+	<Camera>
+		<cam>
+			<x> -9 </x>
+			<y> 18 </y>
+			<z> -21 </z>
+		</cam>
+		
+		<cam>
+			<x> -52 </x>
+			<y> 18 </y>
+			<z> 29 </z>
+		</cam>
+
+	</Camera>
+		<Light>
+		
+			<x> -9 </x>
+			<y> 18 </y>
+			<z> -21 </z>
+	
+		</Light>
+</Level>

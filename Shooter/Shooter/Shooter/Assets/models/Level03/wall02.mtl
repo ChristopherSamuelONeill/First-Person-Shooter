@@ -1,0 +1,81 @@
+newmtl Material__25SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.59 0.59 0.59
+Tf 1.00 1.00 1.00
+map_Kd fuselage.jpg
+Ni 1.50
+Ks 0.41 0.41 0.41
+newmtl Material__26SG
+illum 4
+Kd 0.05 0.14 0.20
+Ka 0.05 0.14 0.20
+Tf 0.43 0.43 0.43
+Ni 1.50
+Ks 0.78 0.78 0.78
+newmtl Material__28SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.59 0.59 0.59
+Tf 1.00 1.00 1.00
+map_Kd panel.jpg
+Ni 1.50
+Ks 0.29 0.29 0.29
+newmtl Material__29SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.59 0.59 0.59
+Tf 1.00 1.00 1.00
+map_Kd pal.jpg
+Ni 1.50
+Ks 0.41 0.41 0.41
+newmtl Material__30SG
+illum 4
+Kd 0.35 0.31 0.26
+Ka 0.35 0.31 0.26
+Tf 1.00 1.00 1.00
+Ni 1.50
+Ks 0.33 0.33 0.33
+newmtl Material__32SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.59 0.59 0.59
+Tf 1.00 1.00 1.00
+map_Kd Plt.jpg
+Ni 1.50
+Ks 0.45 0.45 0.45
+newmtl Material__33SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.59 0.59 0.59
+Tf 1.00 1.00 1.00
+map_Kd land.jpg
+Ni 1.50
+Ks 0.30 0.30 0.30
+newmtl Material__34SG
+illum 4
+Kd 0.18 0.18 0.18
+Ka 0.18 0.18 0.18
+Tf 1.00 1.00 1.00
+Ni 1.50
+Ks 0.31 0.31 0.31
+newmtl Material__36SG
+illum 4
+Kd 0.05 0.45 0.13
+Ka 0.05 0.45 0.13
+Tf 0.43 0.43 0.43
+Ni 1.50
+Ks 0.78 0.78 0.78
+newmtl Material__37SG
+illum 4
+Kd 0.66 0.04 0.04
+Ka 0.66 0.04 0.04
+Tf 0.71 0.71 0.71
+Ni 1.50
+Ks 0.78 0.78 0.78
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00

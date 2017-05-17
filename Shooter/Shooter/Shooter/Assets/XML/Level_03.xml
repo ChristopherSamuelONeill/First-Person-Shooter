@@ -1,0 +1,85 @@
+<?xml version = "1.0"?>
+
+<Level>
+	<Scene>
+		<object>
+			<modelPath>Assets/models/skybox.obj</modelPath>
+			<texturePath>Assets/images/skybox.bmp </texturePath>
+		</object>
+		<object>
+			<modelPath>Assets/models/ground.obj</modelPath>
+			<texturePath>Assets/images/UVGround.bmp </texturePath>
+		</object>
+		<object>
+			<modelPath>Assets/models/Level03/celing.obj</modelPath>
+			<texturePath>Assets/images/ceiling.bmp </texturePath>
+		</object>
+		<object>
+			<modelPath>Assets/models/Level03/floor.obj</modelPath>
+			<texturePath>Assets/images/floor.bmp </texturePath>
+		</object>
+		<object>
+			<modelPath>Assets/models/Level03/wall01.obj</modelPath>
+			<texturePath>Assets/images/wall01.bmp </texturePath>
+		</object>
+		<object>
+			<modelPath>Assets/models/Level03/wall02.obj</modelPath>
+			<texturePath>Assets/images/wall01.bmp </texturePath>
+		</object>
+		<object>
+			<modelPath>Assets/models/Level03/wall03.obj</modelPath>
+			<texturePath>Assets/images/wall01.bmp </texturePath>
+		</object>
+		<object>
+			<modelPath>Assets/models/Level03/wall04.obj</modelPath>
+			<texturePath>Assets/images/wall01.bmp </texturePath>
+		</object>
+		
+	</Scene>
+	<Pickups>
+		<numb>2</numb>
+		<object>
+			<type>battery</type>
+			<score> 50 </score>
+			<x> -17 </x>
+			<y> 8 </y>
+			<z> 17 </z>
+		</object>
+		<object>
+			<type>battery</type>
+			<score> 50 </score>
+			<x> 25 </x>
+			<y> 8 </y>
+			<z> 19 </z>
+		</object>
+	</Pickups>
+	<Robot>
+			<x> -17 </x>
+			<y> 13 </y>
+			<z> -30 </z>
+			<r> 180 </r>
+			<f> 100 </f>
+	</Robot>
+
+	<Camera>
+		<cam>
+			<x> -49 </x>
+			<y> 20 </y>
+			<z> -30 </z>
+		</cam>
+		
+		<cam>
+			<x> 33 </x>
+			<y> 20 </y>
+			<z>55 </z>
+		</cam>
+
+	</Camera>
+	<Light>
+		
+			<x> -9 </x>
+			<y> 18 </y>
+			<z> -21 </z>
+	
+		</Light>
+</Level>
